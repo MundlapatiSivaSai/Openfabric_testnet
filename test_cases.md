@@ -1,4 +1,4 @@
-# Openfabric Testnet: User Module Test Cases
+# Openfabric Testnet: Test Cases
 
 This document outlines a comprehensive set of test cases for the User module of the Openfabric testnet. The User module is crucial for enabling interactions with various applications such as QRFabric, ArtFabric, MemeFabric, SoundFabric. These test cases aim to ensure that users can effectively use these applications to generate QR, images, memes, and music based on custom prompts.
 
