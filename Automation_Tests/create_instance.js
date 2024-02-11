@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const dappeteer = require('dappeteer');
 
 async function createAIInstanceOnOpenFabric() {
-  const browser = await dappeteer.launch(puppeteer, { headless: false }); // Launch in non-headless mode for visual confirmation
+  const browser = await dappeteer.launch(puppeteer, { headless: false }); //
   const metamask = await dappeteer.getMetamask(browser);
 
   // Import an account into MetaMask using the provided seed phrase and password
